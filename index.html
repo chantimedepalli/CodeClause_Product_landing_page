@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SNEAKS</title>
+  <link rel="stylesheet" href="style.css" />
+  </head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="file:///C:/Users/91831/Downloads/Sneak%20LOGO.png" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+        <div class="textBox">
+        <h2>Walk ahead<br>With<span> SNEAKS</span></h2>
+        <p>Sneak's range of products include shoes, jerseys, shorts,
+        cleats, baselayers, etc. for sports activities such as association
+        football, basketball, track and field, combat sports, tennis,
+        American football, athletics, golf, ice hockey, and cross training 
+        for men, women, and children.</p>
+        <a href="#">Learn More</a>
+        </div>
+        <div class="imageBox">
+            <img src="file:///D:/p1images/img1.png" class="SNEAKS">  
+            </div> 
+        </div>
+        <ul class="thumb">
+            <li><img src="file:///D:/p1images/thumb2.png"onclick="imgSlider('file:///D:/p1images/img2.png');changeCircleColor('#8D918D')"></li>
+            <li><img src="file:///D:/p1images/thumb3.png"onclick="imgSlider('file:///D:/p1images/img3.png');changeCircleColor('#997950')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="file:///D:/p1images/facebook.png"></a></li>
+            <li><a href="#"><img src="file:///D:/p1images/twitter.png"></a></li>
+            <li><a href="#"><img src="file:///D:/p1images/instagram.png"></a></li>
+        </section>
+        <script type="text/javascript">
+            function imgSlider(anything){
+                document.querySelector('.SNEAKS').src = anything;
+            }
+            function changeCircleColor(color){
+                const circle = document.querySelector('.circle');
+                circle.style.background = color;
+            }
+            
+            
+            </script>
+  
+</body>
+</html> 
